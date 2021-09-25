@@ -28,11 +28,11 @@ function App() {
       <div className="row">
         <div className="col">
           <div className="bg-warning p-5">
-            <h1 className="display-4">Todo App</h1>  
+            <h1 className="display-3">Todo App</h1>  
           </div>
           <br />
           <NewTask createTask={createTask} />
-          <br />
+          <br /> <br />
           <TaskList tasks={tasks} markTaskDone={markTaskDone} deleteTask={deleteTask} />
         </div>
       </div>  
